@@ -1,0 +1,15 @@
+{
+  "name": "zenn-weather-app",
+  "version": "1.0.0",
+  "description": "\"Weather APP with an API\"",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zenande",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}

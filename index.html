@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Zenn<span class="period">.</span> Weather App</h1>
+      <form id="search-city">
+        <div class="search-container">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Enter a city..."
+            required
+          />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <hr />
+      <section class="grid">
+        <div class="left-section">
+          <h2 class="current-city">San Francisco</h2>
+          <p id="current-day">Friday 11:20, few clouds</p>
+          <p>Humidity: <strong>91%</strong>, Wind: <strong>6.17km/h</strong></p>
+        </div>
+        <div class="right-section">
+          <h2 id="temperature"><span id="current-temp">14</span>°C</h2>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Coded with ❤️ by
+          <a
+            href="https://www.linkedin.com/in/zenande-mbane-02a492166/"
+            target="_blank"
+            >Zenande</a
+          >
+          and is
+          <a href="https://github.com/Averetech" target="_blank"> on GitHub</a>
+          and
+          <a
+            href="https://app.netlify.com/teams/averetech/sites"
+            target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
